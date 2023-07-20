@@ -1,0 +1,25 @@
+.header {
+    background-image: linear-gradient(to right, #004aad 15%, #fd6809);
+    display: flex;
+    align-items: 5px;
+    padding-left: 200px;
+}
+
+.header a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.header .logo {
+    max-height: 50px;
+}
+
+.header .tittle-gorup {
+    padding-left: 25px;
+}
+
+.header .tittle-gorup i {
+    padding-right: 5px;
+}

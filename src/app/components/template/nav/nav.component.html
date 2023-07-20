@@ -1,0 +1,36 @@
+<mat-sidenav-container class="container">
+
+    <mat-sidenav class="sidenav" mode="side" opened fixedInViewport="true">
+
+        <mat-nav-list class="nav-list">
+            <span>
+                <a routerLink="/">
+                    <img class="logo" src="../../../../assets/img/logo.png" alt="Logo">
+                </a>
+            </span>
+
+            <a mat-list-item routerLink="/">
+                <strong>
+                    <i class="material-icons v-middle">
+                        home
+                    </i>
+                    Inicio
+                </strong>
+            </a>
+
+            <a mat-list-item routerLink="/products">
+                <strong>
+                    <i class="material-icons v-middle">
+                        storefront
+                    </i>
+                    Produtos
+                </strong>
+            </a>
+        </mat-nav-list>
+    </mat-sidenav>
+
+    <mat-sidenav-content class="content">
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+
+</mat-sidenav-container>

@@ -1,0 +1,33 @@
+<mat-card>
+    <mat-card-title>Novo Produto</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome" [(ngModel)]="product.name" name="name">
+        </mat-form-field>
+
+        <!-- <mat-form-field>
+            <input matInput placeholder="Preço" [(ngModel)]="product.price" name="price">
+        </mat-form-field> -->
+        <mat-form-field>
+            <input matInput placeholder="Email" [(ngModel)]="product.email" name="email">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Nota Português" [(ngModel)]="product.notaPort" name="notaPort">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Nota Informárica" [(ngModel)]="product.notaInfo" name="notaInfo">
+        </mat-form-field>
+
+    </form>
+    <div class="button">
+        <button class="salvar" mat-raised-button class="save" (click)="createProduct()" color="primary">
+            Salvar
+        </button>
+
+        <button class="cancelar" mat-raised-button (click)="cancel()" color="warn">
+            Cancelar
+        </button>
+    </div>
+</mat-card>

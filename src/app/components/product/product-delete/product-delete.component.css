@@ -1,0 +1,19 @@
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.button{
+    display: table-cell;
+    margin: 20px;
+}
+
+.button .delete{
+    margin-right: 15px;
+}
+
+.button .cancelar{
+    margin-left: 10px;
+}
+

@@ -1,0 +1,26 @@
+.sidenav {
+    background-image: linear-gradient(to bottom, #004aad, #fd6809);
+    width: 200px;
+}
+
+.sidenav .logo {
+    max-height: 50px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.sidenav a {
+    color: #FFF;
+    
+}
+
+
+.sidenav i {
+    padding-right: 10px;
+}
+
+.content {
+    padding: 20px;
+    background-color: bisque;
+
+}
