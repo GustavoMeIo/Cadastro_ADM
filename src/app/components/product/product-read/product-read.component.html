@@ -8,7 +8,7 @@
 
     <!-- Name Column -->
     <ng-container matColumnDef="name">
-      <th mat-header-cell *matHeaderCellDef>Name</th>
+      <th mat-header-cell *matHeaderCellDef>Nome</th>
       <td mat-cell *matCellDef="let row">{{row.name}}</td>
     </ng-container>
 
@@ -33,9 +33,14 @@
     <!-- Nota Informárica Column -->
     <ng-container matColumnDef="notaInfo">
       <th mat-header-cell *matHeaderCellDef>Nota Informárica</th>
-      <td mat-cell *matCellDef="let row">{{ row.notaInfo}}</td>
+      <td mat-cell *matCellDef="let row">{{row.notaInfo}}</td>
     </ng-container>
-
+    
+    <!-- Data ADM Column -->
+    <ng-container matColumnDef="dateAdm">
+      <th mat-header-cell *matHeaderCellDef>Data ADM</th>
+      <td mat-cell *matCellDef="let row">{{row.dateAdm}}</td>
+    </ng-container>
 
     <!-- Action Column -->
     <ng-container matColumnDef="action">

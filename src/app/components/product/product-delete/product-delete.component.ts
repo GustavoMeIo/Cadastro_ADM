@@ -28,7 +28,7 @@ export class ProductDeleteComponent {
 
   deleteProduct(): void {
     this.productService.delete(this.product.id).subscribe(() => {
-      this.productService.showMenssage('Produto Excluido com Sucesso!')
+      this.productService.showMenssage('Funcionário Excluido com Sucesso!')
       this.router.navigate(['/products']);
     });
   }

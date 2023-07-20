@@ -13,10 +13,10 @@ export class ProductCreateComponent {
 
   product: Product = {
     name: '',
-    // price: null,
     email: '',
     notaPort: null,
-    notaInfo: null
+    notaInfo: null,
+    dateAdm: null
   }
 
   constructor(private productService: ProductService,

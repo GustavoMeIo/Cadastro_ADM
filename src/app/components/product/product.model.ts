@@ -1,8 +1,8 @@
 export interface Product{
     id?: number
     name: string
-    // price: number
     email: string
+    dateAdm: number
     notaPort: number
     notaInfo: number
 }

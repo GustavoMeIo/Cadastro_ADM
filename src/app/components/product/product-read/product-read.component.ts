@@ -13,8 +13,8 @@ import { ProductService } from './../product.service';
 export class ProductReadComponent {
 
   products: Product[]
-  displayedColumns = ['name', 'notaPort', 'notaInfo', 'email',  'action']
-  // 'notaPort', 'notaInfo', 'email', 'price'
+  displayedColumns = ['name', 'dateAdm', 'notaPort', 'notaInfo', 'email', 'action']
+
 
   constructor(private productService: ProductService) {  }
 
