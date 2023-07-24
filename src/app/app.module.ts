@@ -5,10 +5,14 @@ import { LOCALE_ID, NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
+import { MatNativeDateModule } from '@angular/material/core';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatListModule } from '@angular/material/list';
+import { MatMenuModule } from '@angular/material/menu';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
@@ -32,10 +36,6 @@ import { RedDirective } from './directives/red.directive';
 import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 
-import {Component} from '@angular/core';
-import {MatIconModule} from '@angular/material/icon';
-import {MatNativeDateModule} from '@angular/material/core';
-
 
 
 registerLocaleData(localePt);
@@ -53,7 +53,8 @@ registerLocaleData(localePt);
     ProductCreateComponent,
     ProductReadComponent,
     ProductUpdateComponent,
-    ProductDeleteComponent
+    ProductDeleteComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -77,7 +78,9 @@ registerLocaleData(localePt);
     MatInputModule,
     MatDatepickerModule,
     MatNativeDateModule,
-    MatIconModule
+    MatIconModule,
+    MatGridListModule,
+    MatMenuModule
   ],
   providers: [{
     provide: LOCALE_ID,
