@@ -39,7 +39,7 @@
     <!-- Data ADM Column -->
     <ng-container matColumnDef="dateAdm">
       <th mat-header-cell *matHeaderCellDef>Data ADM</th>
-      <td mat-cell *matCellDef="let row">{{row.dateAdm}}</td>
+      <td mat-cell *matCellDef="let row">{{row.dateAdm | date}}</td>
     </ng-container>
 
     <!-- Action Column -->

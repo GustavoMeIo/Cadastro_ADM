@@ -2,7 +2,7 @@ export interface Product{
     id?: number
     name: string
     email: string
-    dateAdm: number
+    dateAdm: Date
     notaPort: number
     notaInfo: number
 }
